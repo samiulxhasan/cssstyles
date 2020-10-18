@@ -1,0 +1,186 @@
+/* label { display:block; } */
+textarea { label:block;display:block;vertical-align: top;width: 600px; height: 130px; }
+checkbox { label:block;vertical-align: top }
+
+ul.listOrdered li {  list-style-type: decimal; }
+ul.listNoOrder li {  list-style-type: square; }
+
+table.druggableLeg th,table.druggableLeg td{
+    border-collapse:collapse;border:0px;padding: 0;vertical-align:middle;text-align:center;
+}
+
+
+table.table_rootmenu th,table.table_rootmenu td{
+    background-color: oldlace;border:0px solid orange;vertical-align:top;text-align:left;
+    font-family: Arial;font-size: 12;
+}
+
+/* ensure no borders */
+table.table_rootmenu {
+    border-collapse: collapse;
+    align: center;
+    /* width: 80%; */
+}
+
+/*
+table.table_columnwise td{
+    background-color: #c5e7e0;border:1px solid #66CC99;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;text-align:left;margin-left: auto;margin-right: auto;
+}
+
+table.table_columnwise th{
+    background-color: white;border:1px solid #66CC99;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;text-align:left;margin-left: auto;margin-right: auto;
+}
+
+table.table_columnwise{
+    border-collapse:collapse;width:100%;border:1px solid #66CC99;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;text-align:left;margin-left: auto;margin-right: auto;
+}
+
+table.table_rowwise{border-collapse:collapse}
+.col1{font-weight:bold;}
+td,th{padding:1px}
+*/     
+
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #3a4f54;
+    background-color: #fbfbf1;
+    font-size: medium;
+}
+
+
+h1, h2, h3 {
+	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.3em;
+	color: #6666FF;
+	border-bottom: 1px solid #B0BED9;
+}
+
+h3 {
+	font-size: 1em;
+	margin-top:20px;
+}
+
+/* /* table { */
+    /* /* width: 580px; */ */
+   /* padding: 1px; */
+    /* /**background-color: #c5e7e0;*/ */
+/* /*     margin-left: auto; */
+    /* margin-right: auto; */ */
+/* } */
+
+
+/* th { */
+    /* text-align: left; */
+    /* border-bottom: 1px solid; */
+/* } */
+
+/* td { */
+    /* padding: 10px; */
+/* } */ */
+
+a:link {
+    color: #be7429;
+    font-weight: normal;             
+}
+
+.menu {
+cursor: pointer;
+}
+
+.hide {
+display: none;
+}
+
+.show{
+display: block;
+}
+
+input[type="submit"]{
+	background:#FEDA71;
+	background:-moz-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#FEDA71),color-stop(100%,#FEBB49));
+	background:-webkit-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background:-o-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background:-ms-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background:linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEDA71',endColorstr='#FEBB49',GradientType=0);
+	padding:2px 9px;
+	color:#623F1D;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:12px;
+	border-radius:48px;
+	-moz-border-radius:48px;
+	-webkit-border-radius:48px;
+	border:1px solid #623F1D
+}
+
+
+
+input[type="submit"]:hover {
+    /*border: none;*/
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
+ul.navlist { list-style-image: url('http://bixweb-stv1.gsk.com/cb_uk_analysis/2013/Respiratory/serenity/src/resources/bullet.png'); }
+
+typeahead,
+.tt-query, /* UPDATE: newer versions use tt-input instead of tt-query */
+.tt-hint {
+    width: 396px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 24px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.tt-query { /* UPDATE: newer versions use tt-input instead of tt-query */
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999;
+}
+
+.tt-menu { /* UPDATE: newer versions use tt-menu instead of tt-dropdown-menu */
+    width: 422px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.tt-suggestion:hover {
+    color: #f0f0f0;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
